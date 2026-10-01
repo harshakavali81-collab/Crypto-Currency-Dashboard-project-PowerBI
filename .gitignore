@@ -1,0 +1,12 @@
+# Power BI/local/cache
+*.pbi\\local
+*.pbit
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Temporary files
+*.tmp
+*.temp
+.env
