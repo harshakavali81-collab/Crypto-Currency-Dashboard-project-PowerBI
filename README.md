@@ -1,36 +1,68 @@
 # Cryptocurrency Dashboard - Power BI
 
-Complete project package for an interactive Cryptocurrency Dashboard built in Microsoft Power BI.
+Documentation case study: Crypto Currency Dashboard project PowerBI. The runnable project assets are not yet included in this repository.
 
-## Contents
-- Power BI dashboard source (.pbix)
-- Source dataset (.xlsx)
-- Project explanation PDF
-- Dashboard screenshots
-- Workflow and repository structure diagrams
-- Project documentation and usage notes
+[Setup](#local-installation--setup-guide) · [Architecture](#architecture--system-design-diagram) · [Detailed guide](PROJECT_GUIDE.md) · [Repository standard](docs/REPOSITORY_STANDARD.md)
 
-## Dashboard Pages
-### Cryptocurrency Dashboard
-- Cryptocurrency selector
-- Year selector
-- Volume, Market Cap, High, Average and Low KPI cards
-- Market Cap by Date trend
+## Visuals
 
-### Price Trends Analysis
-- Cryptocurrency selector
-- Year selector
-- Volume and Market Cap KPI cards
-- High and Low by Date
-- Open and Close by Date
+A captured application screenshot or demo recording is not included yet. See the architecture section and checked-in documentation below.
 
-## Workflow
+## Live Link / Demo
+
+Documentation-only checkout. No runnable dashboard/device demo or public deployment is included.
+
+## Key Features
+
+- Project explanation and workflow documentation.
+- A clear inventory of checked-in materials.
+- Dashboard/device implementation remains unavailable in this checkout; earlier package descriptions are retained in the detailed guide.
+
+## Tech Stack
+
+![Markdown](https://img.shields.io/badge/Markdown-334155?style=flat-square) ![Power BI](https://img.shields.io/badge/Power%20BI-334155?style=flat-square) ![Excel](https://img.shields.io/badge/Excel-334155?style=flat-square)
+
+Documented target tools; runnable assets are pending.
+
+## Architecture / System Design Diagram
+
 Source Data -> Power BI Import -> Data Preparation / Modeling -> Measures & Visualizations -> Interactive Dashboard
 
-## Project Structure
-See the `Diagrams/` and `Documentation/` folders.
+## Local Installation & Setup Guide
 
-## Usage
-Open `PowerBI/CryptoCurrency_Dashboard.pbix` with Power BI Desktop. If prompted for the source, use `Data/CryptoData.xlsx`.
+```bash
+git clone https://github.com/harshakavali81-collab/Crypto-Currency-Dashboard-project-PowerBI.git
+cd Crypto-Currency-Dashboard-project-PowerBI
+```
 
-The screenshot values are supplied dashboard output and are not live cryptocurrency prices.
+Read the project guide (asset not present in this checkout) and the available-file inventory (asset not present in this checkout). There is no runnable application in this checkout. Upload the original workbook/PBIX or firmware and required inputs before documenting an executable setup.
+
+## Challenges & Solutions
+
+**Repository organization:** this project uses its existing project-specific entry points. Keeping those paths stable avoids breaking imports, asset links and deployment commands while the documentation follows a shared format. Project-specific technical limitations and prior release evidence are retained in [Project guide](PROJECT_GUIDE.md).
+
+## Future Improvements
+
+- Add original project assets with documented redistribution rights.
+- Capture a real dashboard screenshot or hardware demonstration.
+- Validate the project from a fresh download and document exact prerequisites.
+
+## Scope and supporting evidence
+
+Consult [the detailed project guide](PROJECT_GUIDE.md) for data provenance, limitations, historical evaluation results and release notes. This documentation update does not certify production readiness or rerun application/model tests.
+
+## Repository Structure
+
+| Location | Purpose |
+| --- | --- |
+| `.github/` | Issue forms, PR template and automated checks |
+
+[Complete file inventory and workflow](docs/REPOSITORY_STANDARD.md). Runtime entry points retain their existing paths.
+
+## Workflow & Tracking
+
+Use the [bug and feature forms](https://github.com/harshakavali81-collab/Crypto-Currency-Dashboard-project-PowerBI/issues/new/choose) to define work with acceptance criteria. Keep tasks in Todo → In progress → Review → Done, and link a pull request with `Closes #<number>`. See [the maintenance workflow](docs/REPOSITORY_STANDARD.md#workflow).
+
+## License
+
+See [LICENSE](LICENSE) for the existing terms.
